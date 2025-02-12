@@ -14,6 +14,7 @@
             background: linear-gradient(to right, #111827, #1F2937);
             color: #fff;
             text-align: center;
+            scroll-behavior: smooth;
         }
         .container {
             padding: 50px 20px;
@@ -50,14 +51,40 @@
             font-size: 0.9rem;
             color: #9CA3AF;
         }
+        .section {
+            padding: 80px 20px;
+            margin-top: 50px;
+        }
+        #web3-btn {
+            background: #3B82F6;
+        }
+        #web3-btn:hover {
+            background: #2563EB;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to ApeX (APEX)</h1>
         <p>The future of DeFi with real-world utility.</p>
-        <a href="#" class="btn">Join the Revolution</a>
+        <a href="#whitepaper" class="btn">White Paper</a>
+        <a href="#contact" class="btn">Contact</a>
+        <a href="web3.html" target="_blank" class="btn" id="web3-btn">Web3 DApp</a>
     </div>
+
+    <!-- Whitepaper Section -->
+    <div id="whitepaper" class="section">
+        <h2>White Paper</h2>
+        <p>Read about the vision, tokenomics, and roadmap of ApeX.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>For inquiries, partnerships, or support, reach out to us.</p>
+        <p>Email: support@apextoken.com</p>
+    </div>
+
     <footer>© 2025 ApeX Token | Built for the Future of DeFi</footer>
 </body>
 </html>
